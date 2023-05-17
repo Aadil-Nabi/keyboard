@@ -11,7 +11,7 @@ import (
 
 func GetInput() int {
 
-	fmt.Println("Enter the Number")
+	fmt.Println("Enter the Number and then hit Enter/Return")
 
 	// Create a new reader to read data from the terminal
 	reader := bufio.NewReader(os.Stdin)
